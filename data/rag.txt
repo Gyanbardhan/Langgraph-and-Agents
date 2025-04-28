@@ -1,0 +1,42 @@
+What is RAG and How It Works
+
+RAG stands for Retrieval-Augmented Generation. It is an advanced technique in the field of natural language processing (NLP) that combines two powerful capabilities: retrieving relevant information from a database or knowledge source and generating natural language responses based on that information.
+
+How RAG Works:
+
+Retrieval Step:
+
+When a user asks a question, the system first retrieves relevant documents, passages, or pieces of information from an external knowledge base (such as Wikipedia, a database, or custom content).
+
+This retrieval is often performed using methods like dense vector search, where both the query and documents are embedded into vectors and similarity is measured.
+
+Augmentation Step:
+
+The retrieved information is then fed into a generative model.
+
+This model uses both the original user query and the retrieved content to generate a coherent, informed, and contextually relevant response.
+
+Generation Step:
+
+The generative model (often a language model like GPT, T5, or similar) produces the final answer, blending retrieved facts with fluent natural language.
+
+Key Advantages of RAG:
+
+Improved Accuracy: By consulting external information, the model can produce more accurate and fact-based answers.
+
+Efficiency: It reduces the need to train massive models with all the world's knowledge baked in; instead, knowledge can be retrieved when needed.
+
+Flexibility: The knowledge base can be updated without needing to retrain the model.
+
+Typical Applications:
+
+Question Answering Systems
+
+Chatbots
+
+Virtual Assistants
+
+Search Engines with Natural Language Capabilities
+
+In summary, RAG is a powerful approach that bridges the gap between static knowledge embedded in a model and dynamic, updatable information stored externally, leading to more intelligent and up-to-date AI systems.
+
